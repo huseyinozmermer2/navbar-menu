@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/fontawesome/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&family=Petit+Formal+Script&family=Rubik+Distressed&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Resposive Navbar</title>
+</head>
+<body>
+    <header>
+        <div class="ust-menu">
+            <div class="regwrap">
+                <h1>New Desing</h1>
+            </div>
+            <div class="regwrap">
+                <form >
+                    <input class="search" type="search" placeholder="Ne Aramıştınız?"><i class="fa-solid fa-magnifying-glass fa-2x"></i></i>
+                </form>
+            </div>
+            <div class="regwrap">
+                <a href="#" id="login">
+                    <i class="fa-solid fa-user fa-2x"></i>
+                    <div>
+                        <span>Giriş Yap</span>
+                        <h5>Hesabım</h5>
+                    </div>
+                    <i class="fa-sharp fa-solid fa-chevron-down"></i>
+                </a>
+                <div class="regform">
+                    <div class="regform2">
+                        <h4>Giriş Yap</h4>
+                        <form>
+                            <div class="form-group">
+                                <input type="text" id="username" placeholder="Kullanıcı Adı">
+                            </div>
+                            <div class="form-group">
+                                <input type="password" id="password" placeholder="Şifre">
+                            </div>
+                            <div class="form-group">
+                                <button type="submit">Giriş Yap</button>
+                            </div>
+                        </form>
+                    </div>
+                    <hr>
+                    <div class="regform2">
+                        <h4>Kayıt Ol</h4>
+                        <p>
+                            Yeni kullanıcı? Bir hesap oluşturarak daha hızlı alışveriş yapabilir, bir siparişin durumundan haberdar olabilirsiniz...
+                        </p>
+                        <a href="#">Şimdi Üye Ol</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <nav class="menu">
+        <input type="checkbox" id="menuBtn">
+        <label for="menuBtn" class="menuBtn"><i class="fa-solid fa-bars"></i></label>
+        <ul>
+            <li><a href="#">Anasayfa</a></li>
+            <li><a href="#">Hakkımızda</a></li>
+            <li><a href="#">Hizmetlerimiz</a>
+                <div class="dropdown">
+                    <ul>
+                        <li><a href="#">Web Tasarım</a></li>
+                        <li><a href="#">Market</a>
+                            <div class="dropdown">
+                                <ul>
+                                    <li><a href="#">SEO<a></li>
+                                    <li><a href="#">Sosyal Medya</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li><a href="#">Mobil App</a>
+                            <div class="dropdown">
+                                <ul>
+                                    <li><a href="#">Android App</li>
+                                    <li><a href="#">IOS App</a></li>
+                                    <li><a href="#">Windows App</a></li>
+                                </ul>
+                            </div>                            
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li><a href="#">Referanslar</a></li>
+            <li><a href="#">İletişim</a></li>
+        </ul>
+    </nav>
+</body>
+</html>
